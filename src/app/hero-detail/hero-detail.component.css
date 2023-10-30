@@ -1,56 +1,38 @@
-/* Cyberpunk Application-wide Styles */
+/* HeroDetailComponent's cyberpunk styles */
 
-h1 {
+label {
   color: #00FF00;
   /* Neon green text color */
-  font-family: 'Courier New', monospace;
-  /* A monospace font for a console-like feel */
-  font-size: 250%;
-}
-
-h2,
-h3 {
-  color: #FF4500;
-  /* Orange text color */
-  font-family: 'Courier New', monospace;
-  /* A monospace font for a console-like feel */
   font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(255, 69, 0, 0.5);
-  /* Subtle glow effect */
-}
-
-body {
-  margin: 2em;
-  background-color: #000;
-  /* Black background for the console effect */
-  color: #00FF00;
-  /* Neon green text color */
   font-family: 'Courier New', monospace;
   /* A monospace font for a console-like feel */
 }
 
-body,
-input[type="text"],
-button {
+input {
+  font-size: 1em;
+  padding: .5rem;
+  background-color: #000;
+  /* Black background for the console effect */
   color: #00FF00;
   /* Neon green text color */
+  border: 1px solid #00FF00;
+  /* Neon green border */
   font-family: 'Courier New', monospace;
   /* A monospace font for a console-like feel */
 }
 
 button {
+  margin-top: 20px;
+  margin-right: .5rem;
   background-color: #000;
   /* Black background for the console effect */
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
   color: #00FF00;
   /* Neon green text color */
-  font-size: 1.2rem;
   padding: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  border: 1px solid #00FF00;
+  /* Neon green border */
   font-family: 'Courier New', monospace;
   /* A monospace font for a console-like feel */
 }
@@ -58,8 +40,6 @@ button {
 button:hover {
   background-color: #FF4500;
   /* Orange on hover for a cyberpunk glow */
-  color: #000;
-  /* Black text on hover for contrast */
 }
 
 button:disabled {
@@ -67,12 +47,7 @@ button:disabled {
   /* Black background for the console effect */
   color: #ccc;
   cursor: auto;
-  font-family: 'Courier New', monospace;
-  /* A monospace font for a console-like feel */
-}
-
-/* Everywhere else */
-* {
+  border: 1px solid #ccc;
   font-family: 'Courier New', monospace;
   /* A monospace font for a console-like feel */
 }
